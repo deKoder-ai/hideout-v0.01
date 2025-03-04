@@ -1,0 +1,19 @@
+.aboutHead {
+  text-indent: 3rem;
+  font-family: aksItalic;
+  text-align: center;
+  font-size: 5.5rem;
+  line-height: 1;
+  /* margin: 3rem 12rem; */
+  margin: 3rem 15%;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.para {
+  font-family: aks;
+  font-size: 2.6rem;
+  text-indent: 4rem;
+  /* padding: 0.7rem 10rem; */
+  padding: 0.7rem 10%;
+  letter-spacing: 0.12rem;
+}

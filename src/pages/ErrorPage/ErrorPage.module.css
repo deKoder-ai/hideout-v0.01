@@ -1,0 +1,38 @@
+.bcg {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(../../assets/img/bcgNouveau.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0f0f0fe3;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fof {
+  font-family: var(--dechora-stack);
+  font-size: 4.5rem;
+  color: var(--color);
+  text-shadow: 2px 2px 3px #b41717b3;
+  letter-spacing: 0.25rem;
+  margin-bottom: 3.5rem;
+  line-height: 1;
+}
+.lost {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-wrap: pretty;
+}
+.return {
+  font-size: 1.7rem;
+  text-wrap: pretty;
+  color: #b2bdf8;
+  font-weight: 400;
+}
+.return:hover,
+.return:focus {
+  cursor: pointer;
+}

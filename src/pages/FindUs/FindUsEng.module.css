@@ -1,0 +1,23 @@
+.getDirections {
+  font-family: var(--dechora-stack);
+  font-size: 2.3rem;
+  margin: 3rem;
+  padding: 0rem 3rem;
+  border-radius: 15px;
+  color: black;
+  background-color: var(--beige);
+  outline: 2px solid var(--red);
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.589);
+  z-index: 200;
+}
+.getDirections:hover,
+.getDirections:focus {
+  background-color: var(--red);
+  outline: 2px solid var(--beige);
+  cursor: pointer;
+}
+.textCenter {
+  text-align: center;
+  font-size: 1.6rem;
+  z-index: 500;
+}

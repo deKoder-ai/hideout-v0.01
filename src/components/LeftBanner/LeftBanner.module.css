@@ -1,0 +1,31 @@
+.container {
+  position: sticky;
+  top: 50px;
+  width: 100%;
+  height: calc(100vh - 85px);
+  background-image: url(../../assets/img/left1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--red);
+  background-blend-mode: darken;
+  border-left: 2px solid var(--beige);
+  border-right: 2px solid var(--beige);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.438);
+}
+.banner {
+  transform: rotate(270deg);
+  color: black;
+  font-family: var(--dechora-stack);
+  font-size: calc(31vh - 5rem);
+  letter-spacing: 1rem;
+  text-shadow: -3px -3px 10px var(--beige-shadow),
+    3px 3px 1px rgba(0, 0, 0, 0.7),
+    -3px 3px 1px rgba(0, 0, 0, 0.7),
+    3px -3px 1px rgba(0, 0, 0, 0.7),
+    -3px -3px 1px rgba(0, 0, 0, 0.7);
+}

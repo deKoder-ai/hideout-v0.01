@@ -1,0 +1,18 @@
+.margin {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  background-image: linear-gradient(50deg, var(--bcgcol), var(--bcgcol2));
+  background-color: rgb(95, 189, 95);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.marginGlass {
+  position: sticky;
+  width: 85%;
+  height: auto;
+  top: 45%;
+  opacity: 0.6;
+  padding: 10px;
+}

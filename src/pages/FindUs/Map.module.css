@@ -1,0 +1,10 @@
+.leafletMap {
+  width: 90%;
+  height: 400px; /* Ensure it has a set height */
+  min-height: 400px; /* Prevent collapsing */
+  border-radius: 20px;
+  border: 2px solid var(--red);
+  outline: 2px solid var(--beige);
+  z-index: 1;
+  box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.555);
+}

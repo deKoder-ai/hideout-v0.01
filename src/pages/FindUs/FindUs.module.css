@@ -1,0 +1,14 @@
+.heading {
+  font-family: var(--dechora-stack);
+  letter-spacing: 0.2rem;
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 1rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.61),
+    -2px -2px 1px var(--red);
+    margin-top: 5rem;
+}
+.spacer {
+  width: 100%;
+  height: 10rem;
+}

@@ -1,0 +1,17 @@
+.background {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(../../assets/img/bcgNouveau.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0f0f0fe3;
+  background-blend-mode: darken;
+}
+/* .desktop {
+  margin-left: 240px;
+  width: calc(100vw - 240px);
+} */
+.desktop {
+  width: 100%;
+}

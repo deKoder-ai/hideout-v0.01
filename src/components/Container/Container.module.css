@@ -1,0 +1,16 @@
+.container {
+  background-image: url(../../assets/img/containerNouveau.jpg);
+  background-size: 51%;
+  background-position: center;
+  background-color: #141b24ef;
+  background-blend-mode: darken;
+  padding: 4rem 7%;
+  border: 6px solid var(--bcg);
+  outline: 4px solid var(--beige);
+  text-align: center;
+  max-width: 600px;
+  margin: 1.5rem;
+  border-radius: 11px;
+  text-shadow: 2px 2px 3px #000000b3;
+  box-shadow: 9px 9px 15px #000000d2;
+}
