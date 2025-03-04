@@ -1,0 +1,48 @@
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.label {
+  display: block;
+  font-size: 1.4rem;
+}
+.taskInput {
+  width: 40rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px 0px 0px 5px;
+  border: 2px solid black;
+  border-right: 1px solid black;
+  color: black;
+  background-color: var(--color);
+  height: 3.5rem;
+}
+.taskInput:focus {
+  border: 2px solid #2b5a2b;
+  border-right: 1px solid black;
+  outline: none;
+}
+.submit {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.3rem 2rem;
+  color: black;
+  background-color: var(--color);
+  border: 2px solid black;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  height: 3.5rem;
+}
+.submit:hover,
+.submit:focus {
+  background-color: #2b5a2b;
+  color: var(--color);
+  font-weight: 500;
+  outline: none;
+}
+.tasks {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}

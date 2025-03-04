@@ -1,0 +1,25 @@
+.button {
+  font-family: poppins, system-ui, Helvetica, sans-serif;
+  color: var(--color);
+  font-weight: 400;
+  background-color: #882e2e;
+  background-image: linear-gradient(300deg, #882e2e, #7e2020);
+  border-radius: 11px;
+  border: 2px solid transparent;
+  padding: 0.4rem 1.2rem;
+  width: 12rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px #000000a8;
+  transition: border-color 0.15s;
+}
+button:focus,
+button:hover {
+  border-color: #380303bd;
+  outline: 1px solid #882e2ec0;
+  box-shadow: 3px 3px 7px #000000c0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
+}
+button:focus-visible {
+  outline: 2px auto -webkit-focus-ring-color;
+}
